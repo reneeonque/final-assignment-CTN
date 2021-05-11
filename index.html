@@ -11,6 +11,8 @@
 
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
 
     <!-- Your styles should be called here -->
 
@@ -28,17 +30,16 @@
       <h1>From Hot Spot to Ghost Town:</h1>
       <h2>Comparing My 2018 Egypt Experience to People's Experiences During the
         Pandemic</h2>
-      <h4>By: Renee Onque | May 11, 2021</h4>
-    </div>
-    <div class="container">
-      <p>In 2018, I had one of the most amazing travel experiences ever when I hopped on an eleven-hour long flight to Cairo, Egypt. An opportunity that fell into my lap unexpectedly, quickly turned into my first time flying out of the country. Two
-        years later, everything changed when the COVID-19 caused the first global pandemic since 1919. People lost their jobs, and some people even lost their lives and continue to over a year later.</p>
+      <h3>By: Renee Onque | May 11, 2021</h3>
+      <p><span>I</span>n 2018, I had one of the most amazing travel experiences ever when I hopped on an eleven-hour long flight to Cairo, Egypt. An opportunity that fell into my lap unexpectedly, quickly turned into my first time flying out of the
+        country. Two years later, everything changed when the COVID-19 caused the first global pandemic since 1919. People lost their jobs, and some people even lost their lives and continue to over a year later.</p>
       <p>Subsequently, tourism was dramatically affected and is still feeling the aftermath of the pandemic, Egypt especially.</p>
       <p><b>Click below to compare my experience in 2018 to the experience of others
           in 2020.</b></p>
-
       <div class="filter-container">
-        <h3>The Nile Cruise</h3>
+        <div class="heading">
+          <h4>The Nile Cruise<h4>
+        </div>
         <div>
           <select class="filter">
             <option value="i2018">2018</option>
@@ -55,13 +56,17 @@
           </div>
           <div class="item  i2020">
             <img src="nilecruise2.jpg" />
-            <h4>via</h4>
+            <div class="caption">
+              <h4>Source: <a href="https://www.washingtonpost.com/world/middle_east/the-tale-of-a-nile-cruise-that-spawned-an-international-coronavirus-outbreak/2020/03/13/6ab633fc-6314-11ea-8a8e-5c5336b32760_story.html">The Washington Post</a></h4>
+            </div>
             <p>Two years later, that same experience turned into a nightmare for travelers who were forced to stay on the water after someone contracted the coronavirus.</p>
           </div>
         </section>
       </div>
       <div class="filter-container">
-        <h3>The Pyramids of Giza</h3>
+        <div class="heading">
+          <h4>The Pyramids of Giza<h4>
+        </div>
         <select class="filter">
           <option value="i2018">2018</option>
           <option value="i2020">2020</option>
@@ -75,14 +80,18 @@
           </div>
           <div class="item  i2020">
             <img src="pyramids2.jpg">
-            <h4>Source: <a href="https://www.latimes.com/travel/story/2020-10-05/mom-tourism-spain-serbia-egypt-turkey-covid">Los Angeles Times</a></h4>
+            <div class="caption">
+              <h4>Source: <a href="https://www.latimes.com/travel/story/2020-10-05/mom-tourism-spain-serbia-egypt-turkey-covid">The Los Angeles Times</a></h4>
+            </div>
             <p>Janet Moore&rsquo;s experience was much different than mine. She told LA Times: &ldquo;I was the only human being in the entire pyramid complex except for security and the guys with the camels. No other tourists.&rdquo; Her testimony
               goes to show that tourism in Egypt has taken a sharp decline in comparison to what things were like in 2018.</p>
           </div>
         </section>
       </div>
       <div class="filter-container">
-        <h3>The Great Sphinx of Giza</h3>
+        <div class="heading">
+          <h4>The Great Sphinx of Giza<h4>
+        </div>
         <select class="filter">
           <option value="i2018">2018</option>
           <option value="i2020">2020</option>
@@ -102,8 +111,11 @@
                 <img src="sphinx3.jpg">
               </div>
             </div>
-            <h4>Source: <a href="https://www.bbc.com/news/world-middle-east-53402983">BBC</a></h4>
-            <p>Similar to the tour guide who assisted me in front of the Sphinx, Shahenda Adel&rsquo;s income relied solely on tourism. She told BBC that once travel restrictions were put in place, she immediately lost 1,000 bookings. She explained
+            <div class="caption">
+              <h4>Source: <a href="https://www.bbc.com/news/world-middle-east-53402983">BBC</a></h4>
+            </div>
+            <p>Similar to the tour guide who assisted me in front of the Sphinx, Shahenda Adel&rsquo;s income relied solely on tourism. She told BBC that once travel restrictions were put in place, she immediately lost 1,000 bookings. She
+              explained
               that she wasn&rsquo;t the only one who was affected by this major shift, &ldquo;We had to cancel hotels - and that involves everyone who works in the hotel, the travel company itself, all the people behind desks. We all lost our jobs.
               And
               then you have drivers and restaurants,&rdquo; she told BBC.</p>
@@ -112,9 +124,14 @@
       </div>
       <p>Egypt would greatly benefit from a rise in tourism and many predict that they will make a swift return by fall of 2022. But that starts with tourists returning and enjoying the full experience that Egypt has to offer. It was one of the
         best experiences of my life and could be for you, too!</p>
-    </div>
-    <!-- Your javascript should be called here -->
-    <script src="main.js"></script>
+      <div class="footer">
+        <p><a href="https://allisonnicolesmith.github.io/travel-interactives/">Home</a></p>
+        <p><a href="https://allisonnicolesmith.github.io/open-countries/">"These Destinations Are Open to Vaccinated Travelers"</a> by Allison Nicole Smith</p>
+        <p><a href="https://oliviabensimon.github.io/tourism/">"The Future of New York City Tourism"</a> by Olivia Bensimon</p>
+        <p><a href="https://jconstantz74.github.io/zion/">"At Zion, Visitors Leave Behind More Than Just Footprints"</a> by Jo Constantz</p>
+      </div>
+      <!-- Your javascript should be called here -->
+      <script src="main.js"></script>
   </body>
 
 </html>
